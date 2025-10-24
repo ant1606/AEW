@@ -1,0 +1,174 @@
+body {
+  background-color: var(--my-primary-color);
+  color: var(--my-white-color);
+  font-family: var(--font-secondary);
+  font-size: 16px;
+}
+
+/*
+16	1rem
+20	1.25rem
+24	1.5rem
+32	2rem
+40	2.5rem
+56	3.5rem
+72	4.5rem
+*/
+
+.text-heading-1 {
+  font-family: var(--font-primary);
+  font-weight: 500;
+  font-size: 4.5rem;
+}
+
+.text-heading-1-bold {
+  font-family: var(--font-primary);
+  font-weight: 700;
+  font-size: 4.5rem;
+}
+
+.text-heading-2 {
+  font-family: var(--font-primary);
+  font-weight: 500;
+  font-size: 3.5rem;
+}
+
+.text-heading-2-bold {
+  font-family: var(--font-primary);
+  font-weight: 700;
+  font-size: 3.5rem;
+}
+
+.text-heading-3 {
+  font-family: var(--font-primary);
+  font-weight: 500;
+  font-size: 2.5rem;
+}
+
+.text-heading-3-bold {
+  font-family: var(--font-primary);
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.text-parragraph-1 {
+  font-family: var(--font-secondary);
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.text-parragraph-1-bold {
+  font-family: var(--font-secondary);
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.text-parragraph-2 {
+  font-family: var(--font-secondary);
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.text-parragraph-2-bold {
+  font-family: var(--font-secondary);
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.text-parragraph-3 {
+  font-family: var(--font-secondary);
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.text-parragraph-3-bold {
+  font-family: var(--font-secondary);
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.text-label {
+  font-family: var(--font-secondary);
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+
+.text-label-bold {
+  font-family: var(--font-secondary);
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+.text-menu {
+  font-family: var(--font-secondary);
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.text-menu-bold {
+  font-family: var(--font-secondary);
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.contenedor {
+  padding: 0 60px;
+  margin: 0;
+}
+
+.text-color-primary {
+  color: var(--my-primary-color);
+}
+
+.text-color-primary-alternative {
+  color: var(--my-primary-alternative-color);
+}
+
+.text-color-secondary {
+  color: var(--my-secondary-color);
+}
+
+.text-color-secondary-alternative {
+  color: var(--my-secondary-alternative-color);
+}
+
+.text-color-white {
+  color: var(--my-white-color);
+}
+
+.text-color-white-alternative {
+  color: var(--my-white-alternative-color);
+}
+
+.text-color-black {
+  color: var(--my-black-color);
+}
+
+.text-color-black-alternative {
+  color: var(--my-black-alternative-color);
+}
+
+.text-color-gray {
+  color: var(--my-gray-color);
+}
+
+.text-color-gray-alternative {
+  color: var(--my-gray-alternative-color);
+}
+
+.container-own{
+  padding: 0 80px 80px 80px;
+}
+
+.line,
+.line-thin{
+  color: var(--my-secondary-color);
+  opacity: 100%;
+  min-width: 50rem;
+}
+.line{  
+  border-width: 8px;
+}
+.line-thin{
+  border-width: 3px;
+}
