@@ -193,3 +193,16 @@ footer{
     flex-direction: row;
     gap: 30px;
 }
+
+.footer_data_links_container ul li a,
+.footer_legal_container p a{
+    text-decoration: none;
+    color: var(--my-white-color);
+    transition: all 0.5s ease-out;
+}
+.footer_data_links_container ul li a:hover,
+.footer_legal_container p a:hover{
+    color: var(--my-secondary-color);
+}
+
+

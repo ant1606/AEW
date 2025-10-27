@@ -1,227 +1,510 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Bootstrap demo</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link
-            href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@100..900&display=swap"
-            rel="stylesheet">
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
-            crossorigin="anonymous">
-        <link href="variables.css" rel="stylesheet">
-        <link href="global_styles.css" rel="stylesheet">
-        <link href="styles.css" rel="stylesheet">
-        <link href="inicio.css" rel="stylesheet">
-    </head>
-    <body>
-        <nav
-            class="row align-items-center justify-content-end contenedor nav-container container-own">
-            <img class="menu-logo col" src="./img/logo.png"
-                alt="Imagen de logo">
-            <ul
-                class="menu-container col  align-items-center justify-content-end">
-                <li class="menu-item text-menu-bold"><a href="./index.html">Inicio</a></li>
-                <li class="menu-item text-menu-bold"><a
-                        href="./conocenos.html">Conocenos</a></li>
-                <li class="menu-item text-menu-bold"><a
-                        href="./soluciones.html">Soluciones</a></li>
-                <li class="menu-item text-menu-bold"><a
-                        href="./partners.html">Partner</a></li>
-                <li class="menu-item text-menu-bold"><a
-                        href="./contactanos.html">Contactenos</a></li>
-            </ul>
-        </nav>
 
-        <header class="header-container container">
-            <div
-                class="row justify-content-center header-content-container container-own">
-                <h1
-                    class="text-heading-1-bold text-color-white-alternative">Defensa
-                    digital inteligente para
-                    tu empresa</h1>
-                <p
-                    class="text-parragraph-1 text-color-white-alternative">Protegemos
-                    tu infraestructura
-                    tecnológica con soluciones de
-                    ciberseguridad de vanguardia. Nuestros sistemas anticipan y
-                    neutralizan amenazas con precisión militar.</p>
-                <div class="header-action-container">
-                    <input type="button" class="text-label" value="Explorar" />
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="variables.css" rel="stylesheet">
+    <link href="global_styles.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <link href="inicio.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="row align-items-center justify-content-end contenedor nav-container container-own">
+        <img class="menu-logo col" src="./img/logo.png" alt="Imagen de logo">
+        <ul class="menu-container col  align-items-center justify-content-end">
+            <li class="menu-item text-menu-bold"><a href="./index.html">Inicio</a></li>
+            <li class="menu-item text-menu-bold"><a href="./conocenos.html">Conocenos</a></li>
+            <li class="menu-item text-menu-bold"><a href="./soluciones.html">Soluciones</a></li>
+            <li class="menu-item text-menu-bold"><a href="./partners.html">Partner</a></li>
+            <li class="menu-item text-menu-bold"><a href="./contactanos.html">Contactenos</a></li>
+        </ul>
+    </nav>
+
+    <header class="header-container container">
+        <div class="row justify-content-center header-content-container container-own">
+            <h1 class="text-heading-1-bold text-color-white-alternative">Defensa
+                digital inteligente para
+                tu empresa</h1>
+            <p class="text-parragraph-1 text-color-white-alternative">Protegemos
+                tu infraestructura
+                tecnológica con soluciones de
+                ciberseguridad de vanguardia. Nuestros sistemas anticipan y
+                neutralizan amenazas con precisión militar.</p>
+            <div class="header-action-container">
+                <input type="button" class="text-label" value="Explorar" />
+                <input type="button" class="text-label" value="Contactar" />
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="soluciones_container container-own">
+            <header class="section-header-container ">
+                <h2 class="text-heading-2-bold">PROTECCIÓN INTEGRAL DE
+                    INFRAESTRUCTURA</h2>
+                <hr class="line" />
+                <p class="text-parragraph-1">Soluciones de defensa proactiva
+                    basadas en IA y monitoreo
+                    continuo</p>
+            </header>
+
+            <article class="soluciones_content">
+                <div class="soluciones_card shadow-lg">
+                    <img src="/img/shield.png" class="text-color-secondary">
+                    <p class="text-parragraph-1-bold">Seguridad por
+                        inteligencia artificial</p>
+                    <p class="text-parragraph-3">Algoritmos inteligentes que
+                        aprenden y se actualizan
+                        constantemente para defenderte.</p>
+                </div>
+                <img src="/img/Seguridad.png" alt="Soluciones de Ciberseguridad" class="soluciones_img">
+                <div class="soluciones_card shadow-lg">
+                    <img src="./img/cloud_sync.png" alt="Sevicios de Seguridad">
+                    <p class="text-parragraph-1-bold">Seguridad cloud
+                        avanzada</p>
+                    <p class="text-parragraph-3">Resguardamos tus datos en
+                        la nube con protocolos de
+                        encriptación de última generación.</p>
+                </div>
+            </article>
+            <article class="soluciones_content">
+                <div class="soluciones_card shadow-lg">
+                    <img src="./img/analitics.png" alt="Sevicios de Seguridad">
+                    <p class="text-parragraph-1-bold">Protección de red
+                        empresarial</p>
+                    <p>Blindamos tu infraestructura digital con sistemas de
+                        monitoreo permanente y respuesta inmediata.</p>
+                </div>
+                <div class="soluciones_card shadow-lg">
+                    <img src="/img/shield.png" class="text-color-secondary">
+                    <p class="text-parragraph-1-bold">Seguridad de
+                        endpoints</p>
+                    <p class="text-parragraph-3">Protegemos cada dispositivo
+                        de tu organización con
+                        herramientas de detección proactiva.</p>
+                </div>
+            </article>
+        </section>
+
+        <section class="valores_container container-own">
+            <header class="section-header-container">
+                <h2 class="text-heading-2-bold">TU SEGURIDAD ES NUESTRA
+                    MISIÓN</h2>
+                <hr class="line" />
+                <p class="text-parragraph-1">Protegemos tu infraestructura
+                    digital con inteligencia y
+                    precisión militar.</p>
+            </header>
+            <article class="valores_content">
+                <div class="valores_card">
+                    <span class="text-label-bold text-color-secondary">Innovación</span>
+                    <h3 class="text-heading-3-bold">Transformamos riesgos en
+                        oportunidades
+                        estratégicas</h3>
+                    <p class="text-parragraph-2">Nuestros sistemas de
+                        ciberseguridad aprenden y
+                        evolucionan constantemente.</p>
+                </div>
+                <div class="valores_card">
+                    <span class="text-label-bold text-color-secondary">Precisión</span>
+                    <h3 class="text-heading-3-bold">Soluciones
+                        personalizadas para cada desafío
+                        digital</h3>
+                    <p class="text-parragraph-2">Desarrollamos estrategias
+                        únicas que se ajustan a la
+                        complejidad de tu organización.</p>
+                </div>
+                <div class="valores_card">
+                    <span class="text-label-bold text-color-secondary">Inteligencia</span>
+                    <h3 class="text-heading-3-bold">Anticipamos amenazas
+                        antes de que ocurran</h3>
+                    <p class="text-parragraph-2">Utilizamos algoritmos de
+                        vanguardia para detectar y
+                        neutralizar riesgos potenciales.</p>
+                </div>
+            </article>
+        </section>
+
+        <section class="cta_container container-own">
+            <header class="cta_content">
+                <h3 class="text-heading-1-bold">Protege tu empresa hoy</h3>
+                <p class="text-parragraph-2">
+                    Contáctanos para una evaluación gratuita de seguridad
+                    digital y descubre cómo podemos fortalecer tu
+                    infraestructura tecnológica
+                </p>
+                <div class="cta-action-container">
+                    <input type="button" class="text-label" value="Agendar" />
                     <input type="button" class="text-label" value="Contactar" />
                 </div>
-            </div>
-        </header>
-
-        <main>
-            <section class="soluciones_container container-own">
-                <header class="section-header-container ">
-                    <h2 class="text-heading-2-bold">PROTECCIÓN INTEGRAL DE
-                        INFRAESTRUCTURA</h2>
-                    <hr class="line" />
-                    <p class="text-parragraph-1">Soluciones de defensa proactiva
-                        basadas en IA y monitoreo
-                        continuo</p>
-                </header>
-
-                <article class="soluciones_content">
-                    <div class="soluciones_card shadow-lg">
-                        <img src="/img/shield.png" class="text-color-secondary">
-                        <p class="text-parragraph-1-bold">Seguridad por
-                            inteligencia artificial</p>
-                        <p class="text-parragraph-3">Algoritmos inteligentes que
-                            aprenden y se actualizan
-                            constantemente para defenderte.</p>
-                    </div>
-                    <img src="/img/Seguridad.png"
-                        alt="Soluciones de Ciberseguridad"
-                        class="soluciones_img">
-                    <div class="soluciones_card shadow-lg">
-                        <img src="./img/cloud_sync.png"
-                            alt="Sevicios de Seguridad">
-                        <p class="text-parragraph-1-bold">Seguridad cloud
-                            avanzada</p>
-                        <p class="text-parragraph-3">Resguardamos tus datos en
-                            la nube con protocolos de
-                            encriptación de última generación.</p>
-                    </div>
-                </article>
-                <article class="soluciones_content">
-                    <div class="soluciones_card shadow-lg">
-                        <img src="./img/analitics.png"
-                            alt="Sevicios de Seguridad">
-                        <p class="text-parragraph-1-bold">Protección de red
-                            empresarial</p>
-                        <p>Blindamos tu infraestructura digital con sistemas de
-                            monitoreo permanente y respuesta inmediata.</p>
-                    </div>
-                    <div class="soluciones_card shadow-lg">
-                        <img src="/img/shield.png" class="text-color-secondary">
-                        <p class="text-parragraph-1-bold">Seguridad de
-                            endpoints</p>
-                        <p class="text-parragraph-3">Protegemos cada dispositivo
-                            de tu organización con
-                            herramientas de detección proactiva.</p>
-                    </div>
-                </article>
-            </section>
-
-            <section class="valores_container container-own">
-                <header class="section-header-container">
-                    <h2 class="text-heading-2-bold">TU SEGURIDAD ES NUESTRA
-                        MISIÓN</h2>
-                    <hr class="line" />
-                    <p class="text-parragraph-1">Protegemos tu infraestructura
-                        digital con inteligencia y
-                        precisión militar.</p>
-                </header>
-                <article class="valores_content">
-                    <div class="valores_card">
-                        <span
-                            class="text-label-bold text-color-secondary">Innovación</span>
-                        <h3 class="text-heading-3-bold">Transformamos riesgos en
-                            oportunidades
-                            estratégicas</h3>
-                        <p class="text-parragraph-2">Nuestros sistemas de
-                            ciberseguridad aprenden y
-                            evolucionan constantemente.</p>
-                    </div>
-                    <div class="valores_card">
-                        <span
-                            class="text-label-bold text-color-secondary">Precisión</span>
-                        <h3 class="text-heading-3-bold">Soluciones
-                            personalizadas para cada desafío
-                            digital</h3>
-                        <p class="text-parragraph-2">Desarrollamos estrategias
-                            únicas que se ajustan a la
-                            complejidad de tu organización.</p>
-                    </div>
-                    <div class="valores_card">
-                        <span
-                            class="text-label-bold text-color-secondary">Inteligencia</span>
-                        <h3 class="text-heading-3-bold">Anticipamos amenazas
-                            antes de que ocurran</h3>
-                        <p class="text-parragraph-2">Utilizamos algoritmos de
-                            vanguardia para detectar y
-                            neutralizar riesgos potenciales.</p>
-                    </div>
-                </article>
-            </section>
-
-            <section class="cta_container container-own">
-                <header class="cta_content">
-                    <h3 class="text-heading-1-bold">Protege tu empresa hoy</h3>
-                    <p class="text-parragraph-2">
-                        Contáctanos para una evaluación gratuita de seguridad
-                        digital y descubre cómo podemos fortalecer tu
-                        infraestructura tecnológica
-                    </p>
-                    <div class="cta-action-container">
-                        <input type="button" class="text-label" value="Agendar" />
-                        <input type="button" class="text-label" value="Contactar" />
-                    </div>
-                </header>
-            </section>
-        </main>
-        <footer class="footer_container container-own">
-            <section class="footer_data_container" >
-                <article class="footer_data_medios_container" >
-                    <div class="footer_data_direccion">
-                        <p class="text-label-bold">Dirección</p>
-                        <p class="text-label">Av. Javier Prado Este 123, San Isidro, Lima, Perú</p>
-                    </div>
-                    <div class="footer_data_contacto">
-                        <p class="text-label-bold">Contacto</p>
-                        <p class="text-label">+51 987 654 321</p>
-                        <p class="text-label">informes@ciberseguridad.pe</p>
-                    </div>
-                    <div>
-                        <img src="img/Facebook.png"/>
-                        <img src="img/Instagram.png"/>
-                        <img src="img/X.png"/>
-                        <img src="img/LinkedIn.png"/>
-                        <img src="img/Youtube.png"/>
-                    </div>
-                </article>
-                <article class="footer_data_links_container">
-                    <ul>
-                        <li class="text-label">Inicio</li>
-                        <li class="text-label">Conocenos</li>
-                        <li class="text-label">Soluciones</li>
-                        <li class="text-label">Partners</li>
-                        <li class="text-label">Contactenos</li>
-                    </ul>
-                </article>
-                <article>
-                    <ul>
-                        <li class="text-label">Certificaciones</li>
-                        <li class="text-label">Trabaja con Nosotros</li>
-                        <li class="text-label">Soporte</li>
-                    </ul>
-                </article>
-            </section>
-            <hr class="line-thin"/>
-            <footer class="footer_copy_container">
-                <p class="text-parragraph-3">
-                    &copy; 2025 Empresa de ciberseguridad. Todos los derechos
-                    reservados.
-                </p>
-                <div class="footer_legal_container">
-                    <p class="text-parragraph-3">Politica de Privacidad</p>
-                    <p class="text-parragraph-3">Terminos de Servicios</p>
-                    <p class="text-parragraph-3">Configuracion de Cookies</p>
+            </header>
+        </section>
+    </main>
+    <footer class="footer_container container-own">
+        <section class="footer_data_container">
+            <article class="footer_data_medios_container">
+                <div class="footer_data_direccion">
+                    <p class="text-label-bold">Dirección</p>
+                    <p class="text-label">Av. Javier Prado Este 123, San Isidro, Lima, Perú</p>
                 </div>
-            </footer>
+                <div class="footer_data_contacto">
+                    <p class="text-label-bold">Contacto</p>
+                    <p class="text-label">+51 987 654 321</p>
+                    <p class="text-label">informes@ciberseguridad.pe</p>
+                </div>
+                <div>
+                    <img src="img/Facebook.png" />
+                    <img src="img/Instagram.png" />
+                    <img src="img/X.png" />
+                    <img src="img/LinkedIn.png" />
+                    <img src="img/Youtube.png" />
+                </div>
+            </article>
+            <article class="footer_data_links_container">
+                <ul>
+                    <li class="text-label"><a href="./index.html">Inicio</a></li>
+                    <li class="text-label"><a href="./conocenos.html">Conocenos</a></li>
+                    <li class="text-label"><a href="./soluciones.html">Soluciones</a></li>
+                    <li class="text-label"><a href="./partners.html">Partners</a></li>
+                    <li class="text-label"><a href="./contactanos.html">Contactenos</a></li>
+                </ul>
+            </article>
+            <article class="footer_data_links_container">
+                <ul>
+                    <li class="text-label"><a href="./partners.html#certificaciones">Certificaciones</a></li>
+                    <li class="text-label"><a href="./conocenos.html#bolsa">Trabaja con Nosotros</a></li>
+                    <li class="text-label"><a href="./contactanos.html#soporte">Soporte</a></li>
+                </ul>
+            </article>
+        </section>
+        <hr class="line-thin" />
+        <footer class="footer_copy_container">
+            <p class="text-parragraph-3">
+                &copy; 2025 Empresa de ciberseguridad. Todos los derechos
+                reservados.
+            </p>
+            <div class="footer_legal_container">
+                <p class="text-parragraph-3">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#privacidadModal">
+                        Politica de Privacidad
+                    </a>
+                </p>
+                <p class="text-parragraph-3">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#terminosModal">
+                        Ver Términos y Condiciones
+                    </a>
+                </p>
+                <p class="text-parragraph-3">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#cookiesModal">
+                        Configuración de Cookies
+                    </a>
+                </p>
+            </div>
         </footer>
+    </footer>
 
-        <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-            crossorigin="anonymous"></script>
-    </body>
+
+    <!-- Modal de Términos y Condiciones -->
+    <div class="modal fade" id="terminosModal" tabindex="-1" aria-labelledby="terminosModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header bg-dark text-white">
+                    <h5 class="modal-title" id="terminosModalLabel">Términos y Condiciones</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                        aria-label="Cerrar"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>1. Aceptación de los términos</h6>
+                    <p>
+                        Al acceder y utilizar este sitio web de <strong>Empresa de Ciberseguridad PeruTank</strong> (en
+                        adelante, “el Sitio”), usted acepta cumplir con los presentes Términos y Condiciones.
+                        Si no está de acuerdo con alguno de ellos, debe abstenerse de utilizar el Sitio.
+                    </p>
+
+                    <h6>2. Objeto del sitio</h6>
+                    <p>
+                        El Sitio tiene como objetivo ofrecer información, servicios y herramientas relacionados con la
+                        ciberseguridad,
+                        auditorías de seguridad, protección de datos y concienciación digital.
+                        <strong>Empresa de Ciberseguridad PeruTank</strong> no se hace responsable del uso indebido que
+                        los usuarios puedan dar a la información aquí publicada.
+                    </p>
+
+                    <h6>3. Propiedad intelectual</h6>
+                    <p>
+                        Todos los contenidos, textos, imágenes, código fuente, logotipos y diseños son propiedad de
+                        <strong>Empresa de Ciberseguridad PeruTank</strong>
+                        o de sus respectivos titulares de derechos. Queda estrictamente prohibida su reproducción,
+                        distribución o modificación sin autorización previa.
+                    </p>
+
+                    <h6>4. Uso responsable</h6>
+                    <p>
+                        Los usuarios se comprometen a utilizar este sitio únicamente con fines legales y éticos.
+                        Queda prohibido el uso del sitio para realizar actividades que atenten contra la seguridad
+                        informática de terceros o de la propia plataforma.
+                    </p>
+
+                    <h6>5. Limitación de responsabilidad</h6>
+                    <p>
+                        <strong>Empresa de Ciberseguridad PeruTank</strong> no garantiza la ausencia de errores, fallos
+                        de seguridad o interrupciones del servicio.
+                        En ningún caso será responsable de daños directos o indirectos derivados del uso o imposibilidad
+                        de uso del Sitio.
+                    </p>
+
+                    <h6>6. Protección de datos personales</h6>
+                    <p>
+                        Los datos personales recopilados serán tratados conforme a nuestra <a href="#">Política de
+                            Privacidad</a>
+                        y a la normativa vigente en materia de protección de datos.
+                        El usuario puede ejercer sus derechos de acceso, rectificación, cancelación y oposición en
+                        cualquier momento.
+                    </p>
+
+                    <h6>7. Modificaciones</h6>
+                    <p>
+                        <strong>Empresa de Ciberseguridad PeruTank</strong> se reserva el derecho de modificar en
+                        cualquier momento los presentes términos y condiciones,
+                        notificándolo a través del sitio web. El uso continuado del Sitio implica la aceptación de
+                        dichas modificaciones.
+                    </p>
+
+                    <h6>8. Legislación aplicable</h6>
+                    <p>
+                        Estos términos se rigen por las leyes de <strong>Perú</strong>,
+                        y cualquier controversia será resuelta por los tribunales competentes del mismo.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Aceptar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal de Política de Privacidad -->
+    <div class="modal fade" id="privacidadModal" tabindex="-1" aria-labelledby="privacidadModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header bg-dark text-white">
+                    <h5 class="modal-title" id="privacidadModalLabel">Política de Privacidad</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                        aria-label="Cerrar"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>1. Introducción</h6>
+                    <p>
+                        En <strong>Empresa de Ciberseguridad PeruTank</strong> valoramos y respetamos la privacidad de
+                        nuestros usuarios.
+                        Esta Política de Privacidad describe cómo recopilamos, utilizamos, almacenamos y protegemos la
+                        información personal
+                        que usted nos proporciona al utilizar nuestro sitio web y nuestros servicios de ciberseguridad.
+                    </p>
+
+                    <h6>2. Información que recopilamos</h6>
+                    <p>
+                        Podemos recopilar los siguientes tipos de información:
+                    </p>
+                    <ul>
+                        <li>Datos de contacto (nombre, correo electrónico, número de teléfono, empresa, cargo, etc.).
+                        </li>
+                        <li>Información técnica, como dirección IP, tipo de navegador, sistema operativo y páginas
+                            visitadas.</li>
+                        <li>Datos proporcionados voluntariamente a través de formularios de contacto, registro o
+                            suscripción.</li>
+                    </ul>
+
+                    <h6>3. Finalidad del tratamiento</h6>
+                    <p>
+                        La información recopilada se utiliza para:
+                    </p>
+                    <ul>
+                        <li>Responder consultas y solicitudes de información.</li>
+                        <li>Proporcionar servicios contratados de ciberseguridad.</li>
+                        <li>Mejorar la experiencia del usuario en el sitio web.</li>
+                        <li>Enviar comunicaciones informativas o comerciales (solo con su consentimiento previo).</li>
+                    </ul>
+
+                    <h6>4. Protección de la información</h6>
+                    <p>
+                        <strong>Empresa de Ciberseguridad PeruTank</strong> adopta medidas técnicas y organizativas
+                        adecuadas para garantizar la seguridad, confidencialidad e integridad de los datos personales,
+                        evitando su pérdida, alteración o acceso no autorizado.
+                        No obstante, ningún sistema es completamente seguro, por lo que no podemos garantizar la
+                        invulnerabilidad absoluta de la información.
+                    </p>
+
+                    <h6>5. Compartición de datos</h6>
+                    <p>
+                        No compartimos, vendemos ni alquilamos su información personal a terceros, salvo en los
+                        siguientes casos:
+                    </p>
+                    <ul>
+                        <li>Cuando sea necesario para cumplir con obligaciones legales o requerimientos de autoridades
+                            competentes.</li>
+                        <li>Cuando sea imprescindible para la prestación de un servicio contratado, bajo acuerdos de
+                            confidencialidad.</li>
+                    </ul>
+
+                    <h6>6. Derechos del usuario</h6>
+                    <p>
+                        Usted tiene derecho a acceder, rectificar, cancelar y oponerse al tratamiento de sus datos
+                        personales, así como a solicitar su portabilidad o eliminación.
+                        Para ejercer estos derechos, puede comunicarse con nosotros al correo:
+                        <a href="mailto:contacto@perutank.com">contacto@perutank.com</a>.
+                    </p>
+
+                    <h6>7. Uso de cookies</h6>
+                    <p>
+                        Nuestro sitio web utiliza cookies para mejorar la experiencia de navegación y analizar el
+                        tráfico.
+                        Puede configurar su navegador para rechazar las cookies o recibir alertas antes de que se
+                        almacenen.
+                        Para más información, consulte nuestra <a href="#">Política de Cookies</a>.
+                    </p>
+
+                    <h6>8. Conservación de los datos</h6>
+                    <p>
+                        Los datos personales se conservarán únicamente durante el tiempo necesario para cumplir con las
+                        finalidades descritas
+                        o mientras el usuario mantenga una relación activa con <strong>Empresa de Ciberseguridad
+                            PeruTank</strong>.
+                    </p>
+
+                    <h6>9. Modificaciones de la política</h6>
+                    <p>
+                        <strong>Empresa de Ciberseguridad PeruTank</strong> se reserva el derecho de modificar esta
+                        Política de Privacidad en cualquier momento,
+                        publicando las actualizaciones en este mismo sitio web.
+                        Se recomienda revisarla periódicamente.
+                    </p>
+
+                    <h6>10. Contacto</h6>
+                    <p>
+                        Si tiene preguntas sobre esta política o sobre el tratamiento de sus datos personales, puede
+                        comunicarse con nosotros al correo
+                        <a href="mailto:contacto@perutank.com">contacto@perutank.com</a>.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Aceptar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal de Configuración de Cookies -->
+    <div class="modal fade" id="cookiesModal" tabindex="-1" aria-labelledby="cookiesModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header bg-dark text-white">
+                    <h5 class="modal-title" id="cookiesModalLabel">Configuración de Cookies</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                        aria-label="Cerrar"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>1. ¿Qué son las cookies?</h6>
+                    <p>
+                        Las cookies son pequeños archivos de texto que se almacenan en su dispositivo cuando visita un
+                        sitio web.
+                        En <strong>Empresa de Ciberseguridad PeruTank</strong> utilizamos cookies para mejorar su
+                        experiencia,
+                        analizar el tráfico del sitio y ofrecer contenidos personalizados.
+                    </p>
+
+                    <h6>2. Tipos de cookies utilizadas</h6>
+                    <p>Utilizamos los siguientes tipos de cookies:</p>
+                    <ul>
+                        <li><strong>Cookies necesarias:</strong> esenciales para el funcionamiento del sitio web y no
+                            pueden desactivarse en nuestros sistemas.</li>
+                        <li><strong>Cookies de análisis:</strong> nos permiten contar las visitas y conocer el uso del
+                            sitio para mejorar su rendimiento.</li>
+                        <li><strong>Cookies de personalización:</strong> almacenan preferencias del usuario (por
+                            ejemplo, idioma o región).</li>
+                        <li><strong>Cookies publicitarias:</strong> se utilizan para mostrar anuncios relevantes en
+                            función de sus intereses.</li>
+                    </ul>
+
+                    <h6>3. Gestión del consentimiento</h6>
+                    <p>
+                        Usted puede elegir qué categorías de cookies desea permitir. Las cookies necesarias se activan
+                        por defecto,
+                        ya que son esenciales para el funcionamiento del sitio.
+                    </p>
+
+                    <!-- Opciones de configuración -->
+                    <form id="cookieSettingsForm">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="cookiesNecesarias" checked
+                                disabled>
+                            <label class="form-check-label" for="cookiesNecesarias">
+                                Cookies necesarias (siempre activas)
+                            </label>
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="cookiesAnaliticas">
+                            <label class="form-check-label" for="cookiesAnaliticas">
+                                Cookies de análisis
+                            </label>
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="cookiesPersonalizacion">
+                            <label class="form-check-label" for="cookiesPersonalizacion">
+                                Cookies de personalización
+                            </label>
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="cookiesPublicidad">
+                            <label class="form-check-label" for="cookiesPublicidad">
+                                Cookies publicitarias
+                            </label>
+                        </div>
+                    </form>
+
+                    <h6 class="mt-3">4. Cómo eliminar o bloquear cookies</h6>
+                    <p>
+                        Puede eliminar o bloquear las cookies en cualquier momento mediante la configuración de su
+                        navegador.
+                        Tenga en cuenta que algunas funciones del sitio podrían dejar de funcionar correctamente si
+                        desactiva ciertas cookies.
+                    </p>
+
+                    <h6>5. Más información</h6>
+                    <p>
+                        Para obtener más detalles sobre cómo utilizamos las cookies, consulte nuestra
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#privacidadModal">Política de Privacidad</a>.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Rechazar todas</button>
+                    <button type="button" class="btn btn-primary" id="guardarCookies" data-bs-dismiss="modal">Guardar
+                        preferencias</button>
+                    <button type="button" class="btn btn-success" id="aceptarTodas" data-bs-dismiss="modal">Aceptar
+                        todas</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
